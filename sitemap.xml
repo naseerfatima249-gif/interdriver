@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>http://interdriver.page.dev/</loc>
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="de-be" href="http://interdriver.page.dev/"/>
+    </url>
+    
+    <!-- About Us -->
+    <url>
+        <loc>http://interdriver.page.dev/about.html</loc>
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="de-be" href="http://interdriver.page.dev/about.html"/>
+    </url>
+    
+    <!-- Blog -->
+    <url>
+        <loc>http://interdriver.page.dev/blog.html</loc>
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="de-be" href="http://interdriver.page.dev/blog.html"/>
+    </url>
+    
+    <!-- Contact -->
+    <url>
+        <loc>http://interdriver.page.dev/contact.html</loc>
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="de-be" href="http://interdriver.page.dev/contact.html"/>
+    </url>
+    
+    <!-- Privacy Policy -->
+    <url>
+        <loc>http://interdriver.page.dev/privacy.html</loc>
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+        <xhtml:link rel="alternate" hreflang="de-be" href="http://interdriver.page.dev/privacy.html"/>
+    </url>
+    
+    <!-- Author Page -->
+    <url>
+        <loc>http://interdriver.page.dev/author.html</loc>
+        <lastmod>2026-02-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="de-be" href="http://interdriver.page.dev/author.html"/>
+    </url>
+    
+    <!-- Blog Post: Professionelle Fahrdienste in Belgien -->
+    <url>
+        <loc>http://interdriver.page.dev/professionelle-fahrdienste-belgien.html</loc>
+        <lastmod>2026-01-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="de-be" href="http://interdriver.page.dev/professionelle-fahrdienste-belgien.html"/>
+    </url>
+    
+</urlset>

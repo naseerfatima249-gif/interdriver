@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="geo.region" content="BE">
+    <meta name="geo.placename" content="Belgium">
+    <meta name="description" content="Erfahren Sie mehr über inter driver - Ihr vertrauenswürdiger Informationspartner für professionelle Fahrdienste und Transportlösungen in Belgien.">
+    <title>Über uns - inter driver | Expertise in Mobilität und Transport</title>
+    <link rel="canonical" href="http://interdriver.page.dev/about.html">
+    <link rel="alternate" hreflang="de-be" href="http://interdriver.page.dev/about.html">
+    
+    <meta property="og:title" content="Über uns - inter driver">
+    <meta property="og:description" content="Erfahren Sie mehr über inter driver - Ihr vertrauenswürdiger Informationspartner für professionelle Fahrdienste und Transportlösungen in Belgien.">
+    <meta property="og:url" content="http://interdriver.page.dev/about.html">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="de_BE">
+    
+    <style>
+        :root {
+            --primary-color: #d97706;
+            --secondary-color: #92400e;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #fef3c7;
+            --bg-white: #ffffff;
+            --border-color: #e5e7eb;
+            --shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: #fafafa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: var(--bg-white);
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 0;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: var(--primary-color);
+        }
+        
+        .page-header {
+            background: linear-gradient(135deg, var(--bg-light) 0%, #fed7aa 100%);
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-light);
+        }
+        
+        main {
+            padding: 3rem 0;
+        }
+        
+        section {
+            margin-bottom: 3rem;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            color: var(--secondary-color);
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 1rem;
+        }
+        
+        h3 {
+            font-size: 1.5rem;
+            color: var(--text-dark);
+            margin: 2rem 0 1rem;
+        }
+        
+        p {
+            margin-bottom: 1.25rem;
+            line-height: 1.8;
+            color: var(--text-dark);
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .value-card {
+            background: var(--bg-white);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            border-top: 4px solid var(--primary-color);
+        }
+        
+        .value-card h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        
+        .author-bio {
+            background: var(--bg-light);
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 3rem 0;
+            display: flex;
+            gap: 2rem;
+            align-items: start;
+        }
+        
+        .author-avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: var(--primary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5rem;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .author-info h3 {
+            margin-top: 0;
+            color: var(--secondary-color);
+        }
+        
+        .author-info p {
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            background: var(--text-dark);
+            color: white;
+            padding: 3rem 0 1rem;
+            margin-top: 4rem;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-section h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-links a {
+            color: #d1d5db;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: var(--primary-color);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #374151;
+            color: #9ca3af;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .author-bio {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "Über uns - inter driver",
+        "description": "Erfahren Sie mehr über inter driver - Ihr vertrauenswürdiger Informationspartner für professionelle Fahrdienste und Transportlösungen in Belgien.",
+        "url": "http://interdriver.page.dev/about.html",
+        "inLanguage": "de-BE",
+        "publisher": {
+            "@type": "Organization",
+            "name": "inter driver",
+            "url": "http://interdriver.page.dev/"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="/" class="logo">inter driver</a>
+                <nav>
+                    <ul>
+                        <li><a href="/">Startseite</a></li>
+                        <li><a href="about.html">Über uns</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Über uns</h1>
+            <p class="subtitle">Ihre vertrauenswürdige Quelle für Informationen über Mobilität und Transport</p>
+        </div>
+    </div>
+
+    <main>
+        <div class="container">
+            <article>
+                <section>
+                    <h2>Unsere Mission</h2>
+                    <p>Bei inter driver ist es unsere Mission, umfassende und zuverlässige Informationen über professionelle Fahrdienste und Transportlösungen in Belgien bereitzustellen. Wir verstehen, dass Mobilität ein entscheidender Aspekt des modernen Lebens ist, sei es für geschäftliche Zwecke, persönliche Reisen oder besondere Anlässe.</p>
+                    
+                    <p>Unser Engagement liegt darin, Lesern dabei zu helfen, fundierte Entscheidungen über ihre Transportbedürfnisse zu treffen. Wir bieten detaillierte Einblicke in die Branche, erklären Standards und Best Practices und teilen Expertenwissen, das Ihnen bei der Navigation durch die Welt der professionellen Fahrdienste hilft.</p>
+                    
+                    <p>Durch sorgfältige Recherche und praxisnahe Analysen möchten wir eine Brücke zwischen Dienstleistern und Kunden schaffen. Unser Ziel ist es, Transparenz zu fördern, Qualitätsstandards zu kommunizieren und ein tieferes Verständnis für die Komplexität und Professionalität im Transportwesen zu vermitteln.</p>
+                </section>
+
+                <section>
+                    <h2>Was uns auszeichnet</h2>
+                    <p>In einer Informationsflut heben wir uns durch fundierte Expertise, objektive Berichterstattung und einen leserorientierten Ansatz hervor. Unsere Inhalte basieren auf gründlicher Recherche, Branchenkenntnissen und dem Verständnis für die Bedürfnisse unserer Leser.</p>
+                    
+                    <div class="values-grid">
+                        <div class="value-card">
+                            <h3>Expertise und Erfahrung</h3>
+                            <p>Unser Team verfügt über umfassende Kenntnisse im Bereich Transportwesen und Mobilität. Mit jahrelanger Erfahrung in der Branche verstehen wir die Nuancen professioneller Fahrdienste und können komplexe Themen verständlich aufbereiten.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <h3>Unabhängigkeit und Objektivität</h3>
+                            <p>Wir verpflichten uns zu unvoreingenommener Berichterstattung. Unsere Analysen und Empfehlungen basieren ausschließlich auf Qualität, Sicherheit und Kundennutzen, nicht auf kommerziellen Interessen.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <h3>Aktualität und Relevanz</h3>
+                            <p>Die Transportbranche entwickelt sich ständig weiter. Wir halten unsere Inhalte aktuell, informieren über neue Entwicklungen und passen unsere Informationen an veränderte Standards und Vorschriften an.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <h3>Leserzentrierung</h3>
+                            <p>Unsere Leser stehen im Mittelpunkt alles dessen, was wir tun. Wir gestalten unsere Inhalte so, dass sie praktisch nutzbar, leicht verständlich und auf reale Bedürfnisse zugeschnitten sind.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <h3>Qualität und Genauigkeit</h3>
+                            <p>Jeder Artikel durchläuft einen sorgfältigen Redaktionsprozess. Wir überprüfen Fakten, zitieren zuverlässige Quellen und stellen sicher, dass unsere Informationen korrekt und hilfreich sind.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <h3>Verständlichkeit</h3>
+                            <p>Wir glauben daran, dass komplexe Themen klar und zugänglich kommuniziert werden können. Unsere Artikel vermeiden unnötigen Fachjargon und erklären Konzepte in einer Weise, die für jeden verständlich ist.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Unser Ansatz</h2>
+                    <p>Bei der Erstellung unserer Inhalte folgen wir einem strukturierten Ansatz, der Qualität und Relevanz gewährleistet. Zunächst identifizieren wir Themen, die für unsere Leser von echtem Interesse sind – sei es durch direkte Anfragen, Trendanalysen oder Expertenkonsultationen.</p>
+                    
+                    <p>Die Recherchephase ist intensiv und gründlich. Wir konsultieren Branchenexperten, studieren aktuelle Gesetzgebung und Vorschriften, analysieren Markttrends und sammeln Informationen aus zuverlässigen Quellen. Dieser Prozess stellt sicher, dass unsere Artikel auf soliden Fundamenten aufbauen.</p>
+                    
+                    <p>Bei der Ausarbeitung legen wir Wert auf klare Struktur, logischen Aufbau und verständliche Sprache. Komplexe Themen werden in verdauliche Abschnitte unterteilt, wichtige Punkte werden hervorgehoben, und praktische Beispiele veranschaulichen abstrakte Konzepte.</p>
+                    
+                    <p>Die Qualitätssicherung ist ein weiterer wichtiger Schritt. Jeder Artikel wird überarbeitet, auf Genauigkeit geprüft und optimiert, bevor er veröffentlicht wird. Wir achten dabei nicht nur auf inhaltliche Korrektheit, sondern auch auf Lesbarkeit und Nutzerfreundlichkeit.</p>
+                </section>
+
+                <section>
+                    <h2>Unsere Themenschwerpunkte</h2>
+                    <p>Unser redaktioneller Fokus umfasst verschiedene Aspekte des Transportwesens. Wir behandeln Themen wie die Auswahl des richtigen Fahrdienstes, Verständnis von Qualitätsstandards, Sicherheitsaspekte, gesetzliche Rahmenbedingungen und innovative Entwicklungen in der Branche.</p>
+                    
+                    <p>Besondere Aufmerksamkeit widmen wir praktischen Ratgebern, die Lesern bei konkreten Entscheidungen helfen. Ob es darum geht, einen Flughafentransfer zu buchen, einen Geschäftsfahrdienst auszuwählen oder die Qualität eines Anbieters zu beurteilen – wir bieten konkrete Hilfestellung.</p>
+                    
+                    <p>Darüber hinaus informieren wir über Trends und Innovationen, die die Zukunft der Mobilität prägen. Von umweltfreundlichen Transportoptionen über digitale Buchungssysteme bis hin zu neuen Servicemodellen – wir halten unsere Leser über relevante Entwicklungen auf dem Laufenden.</p>
+                </section>
+
+                <section>
+                    <h2>Engagement für Exzellenz</h2>
+                    <p>Exzellenz ist kein Ziel, sondern ein kontinuierlicher Prozess. Wir sind ständig bestrebt, unsere Inhalte zu verbessern, neue Perspektiven einzubringen und auf die sich wandelnden Bedürfnisse unserer Leser einzugehen.</p>
+                    
+                    <p>Feedback spielt eine wichtige Rolle in diesem Prozess. Wir ermutigen unsere Leser, ihre Gedanken, Fragen und Anregungen mit uns zu teilen. Diese Rückmeldungen helfen uns, relevanter zu werden und Bereiche zu identifizieren, in denen wir unseren Service erweitern können.</p>
+                    
+                    <p>Unsere Verpflichtung zur kontinuierlichen Verbesserung zeigt sich auch in unserer Bereitschaft, aus Fehlern zu lernen, neue Formate auszuprobieren und uns an veränderte Lesergewohnheiten anzupassen. In einer dynamischen digitalen Landschaft bleiben wir flexibel und innovativ.</p>
+                </section>
+
+                <section>
+                    <h2>Unser Team</h2>
+                    <p>Hinter inter driver steht ein engagiertes Team von Fachleuten mit vielfältigen Hintergründen in Journalismus, Transportwesen und digitalen Medien. Unsere redaktionellen Mitarbeiter verbinden journalistische Sorgfalt mit Branchenexpertise, um Inhalte zu schaffen, die sowohl informativ als auch zugänglich sind.</p>
+                    
+                    <p>Jedes Teammitglied bringt einzigartige Perspektiven und Fachkenntnisse ein. Diese Vielfalt ermöglicht es uns, Themen aus verschiedenen Blickwinkeln zu betrachten und umfassende, nuancierte Analysen zu erstellen.</p>
+                    
+                    <p>Kontinuierliche Weiterbildung ist uns wichtig. Unser Team bleibt durch Branchenpublikationen, Fachkonferenzen und den Austausch mit Experten auf dem neuesten Stand der Entwicklungen im Transportwesen.</p>
+                </section>
+            </article>
+
+            <aside class="author-bio">
+                <div class="author-avatar">MW</div>
+                <div class="author-info">
+                    <h3>Hauptautor</h3>
+                    <p><strong>Marcus Weber</strong> - Fachautor für Mobilität und Transport</p>
+                    <p><strong>Fachgebiet:</strong> Transportwesen, Fahrdienste und Verkehrssicherheit</p>
+                    <p>Marcus Weber ist ein erfahrener Journalist und Experte im Bereich Transportwesen und professionelle Fahrdienste mit über 15 Jahren Branchenerfahrung. Seine fundierten Analysen und praxisnahen Einblicke helfen Lesern, fundierte Entscheidungen über ihre Mobilitätsbedürfnisse zu treffen. Marcus hat zahlreiche Artikel über Verkehrssicherheit, Servicequalität und Innovationen im Transportsektor verfasst und berät regelmäßig Fachpublikationen zu diesen Themen.</p>
+                    <p><a href="author.html">Alle Artikel von Marcus Weber ansehen →</a></p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>inter driver</h3>
+                    <p>Ihr zuverlässiger Informationspartner für professionelle Fahrdienste und Transportlösungen in Belgien.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Schnelllinks</h3>
+                    <ul class="footer-links">
+                        <li><a href="/">Startseite</a></li>
+                        <li><a href="about.html">Über uns</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Rechtliches</h3>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html">Datenschutzerklärung</a></li>
+                        <li><a href="author.html">Autorenprofile</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2026 inter driver. Alle Rechte vorbehalten.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
